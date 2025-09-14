@@ -1,31 +1,32 @@
 # Blog API
 
-A simple **Blog API** built with **FastAPI** and **SQLite**, deployed live on **Render**.  
-This project demonstrates basic CRUD operations, authentication, and RESTful API design for learning purposes.
+A **Blog API** built with **FastAPI** and **SQLite**.  
+This project is for **learning purposes**, demonstrating **CRUD operations, JWT authentication, middleware, and REST API design**, deployed live on **Render**.
 
 ---
 
-## 🚀 Deployed URL
-Access the live API here: [https://blog-api-d9hy.onrender.com](https://blog-api-d9hy.onrender.com)
+## 🚀 Live URL
+[https://blog-api-d9hy.onrender.com](https://blog-api-d9hy.onrender.com)
 
 ---
 
 ## 🛠 Tech Stack
 - **Backend:** Python, FastAPI  
-- **Database:** SQLite  
+- **Database:** SQLite (`blog.db`)  
 - **ORM:** SQLAlchemy  
-- **Authentication:** JWT  
+- **Authentication:** JWT (JSON Web Tokens)  
+- **Middleware:** Custom middleware for logging requests  
 - **Deployment:** Render  
-- **API Docs:** Swagger UI (via FastAPI `/docs`)
 
 ---
 
-## 📦 Features
-- Create, Read, Update, Delete (CRUD) operations for blog posts  
-- JWT-based authentication for protected routes  
-- Health check endpoint `/healthz` to verify API and database  
-- Fully deployed and accessible online  
-- Automatic API documentation via `/docs`
+## 📦 Features Implemented
+- **CRUD operations** for blog posts  
+- **JWT-based authentication** for protected endpoints  
+- **Custom middleware** to log API requests and responses  
+- **SQLite database** for persistent storage  
+- **Health check endpoint** `/healthz` to verify API and database  
+- **API documentation** available at `/docs`  
 
 ---
 
